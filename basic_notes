@@ -90,7 +90,8 @@
 # print({num:("X" if num % 2 == 0 else "O") for num in nums})
 # ----------------------
 # person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
-#answer = {k:v for k,v in person}
+# answer = {k:v for k,v in person}
+# answer = dict(person)
 
 
 
