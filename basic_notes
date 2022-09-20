@@ -63,13 +63,38 @@
 
 ######## DICTIONARIES ----------
 # .items() return key:value in tuple
-# {}.fromkeys([], 0)
+# dict(zip())
+# cat = dict(name="James", age=35, iscute=True) --> creating dict
+# cat = {}.fromkeys(['name', 'age', 'iscute']) --> None
+# name = "jack"
+# cat[name]
 # .clear()
-# .copy()
-# pop()
+# .copy() --> makes a copy of dict
+# pop() --> doesnt delete last one if left empty, pop(should have key in it)
 # popitem() at random
 # update() <- adding more keys and values
 # get() or in
+# 'nam' in dict.values()
+# --------------
+# {k:k**2 for k in range(8)}
+# {k:v**3 for k,v in dict_.items()}
+# -----------
+# a = "ABC"
+# b = "DEF"
+# print({a[i]:b[i] for i in range(len(a))})
+# ------------
+# instructor = {'name':'james', 'number':'232', 'address': "vermont ave"}
+# print({k[0].upper() + k[1:]:v[0].upper()+ v[1:] for k,v in instructor.items()})
+# ----------
+# nums = [1, 2, 3, 4, 5, 6]
+# print({num:("X" if num % 2 == 0 else "O") for num in nums})
+# ----------------------
+# person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+#answer = {k:v for k,v in person}
+
+
+
+
 
 
 ####### TUPLES --------
