@@ -1,0 +1,100 @@
+####### Signs ---------------------------------------
+
+# != not equal to
+# and
+# or
+# not
+# in
+# math.ceil highest num
+# math.floor lowest num
+# min()
+# max()
+# help('keywords')
+# // floor division, 5 // 2 = 2
+# % modulo 5 % 2 = 1 remainder
+# .split(" ") vs .replace(" ", "" )
+# .replace(" ", "         ")
+# capitilize or string1[:1].upper() + string1[1:]
+# random
+# randomint
+# round()
+# enumerate()
+# isdigit()
+# .count()
+
+####### Python writing ------------------------------
+
+# camel_case for most variables
+# ALL_CAPITALS for DON'T CHANGE VARS
+# _do_not_toch_ aka dunder
+
+
+####### Functions -----------------------------------
+
+# round(2,2) or f"{num:.2f}"
+# ranges(0,10) - up to 10, range(0:10:2) step size
+# length +1
+# count(3) how many times 3 in shows up
+# index(3) first index of 3 index(3, 4) index of 3 after index 4
+# random(0,1) random float
+# capitilize() - first letter
+# title all first letters
+
+######## LISTS ---------
+# append(x) last place insert
+# extend ([1,2,3]) adss to list
+# insert(-2, "X")
+# remove(4) removes first 4 it finds
+# pop() if empty last item, if index
+# ''.join()
+# split()
+# reverse()
+# sort()
+# [1::2]
+# [:9:2] up to 9 step 2
+# swapping values my_list = [1, 2].... my_list[0], my_list[1] = my_list[1], my_list[0]
+# shuffling
+# .index()
+# clear
+# del
+# .count
+
+
+
+######## DICTIONARIES ----------
+# .items() return key:value in tuple
+# {}.fromkeys([], 0)
+# .clear()
+# .copy()
+# pop()
+# popitem() at random
+# update() <- adding more keys and values
+# get() or in
+
+
+####### TUPLES --------
+# .count()
+# .index()
+
+
+########S SETS -----
+# set([1,2,3,4,4,2])
+# floating around, no indexes
+# s = set({1, 4, 5}) or s = {1, 4, 5} or s = set([1, 4, 5])
+# 1 in s - True
+# list_of_cities = ['LA', "LA", "NY","NY","DC"] <- len(set(list_of_cities)) unique values
+# .add(6)
+# .remove(6) <- shows error if its missing
+# . discard(6) is better
+# .copy()
+# .clear()
+# | <- combining sets together with all unique students
+# & <- students who are in both courses
+
+
+
+
+
+####### ARGS AND KWARGS
+# *args tuleps
+# **kwargs dictionary
