@@ -155,3 +155,7 @@ print(list(filter(lambda x: x % 2 == 0, my_num)))
 my_tuple = (1, 2, 3, "James", None, [], True, {"name":"Mike"}, 45, 32, 11)
 print(tuple(filter(lambda x: type(x) == int, my_tuple)))
 print(tuple(filter(lambda x: isinstance(x, int), my_tuple)))
+
+list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
+print(sum(filter(lambda x: isinstance(x, int), list_1)))
+print(sum([x for x in list_1 if type(x) == int]))
