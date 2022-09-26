@@ -1,3 +1,2 @@
-nums = [1, 2, 3, 4, 5, 6]
-
-print({num:("X" if num % 2 == 0 else "O") for num in nums})
+my_nums = [1, 2, 34, 5, 4, 3, 2, 1, 4, 5]
+print(**map(lambda x: isinstance(x, int),my_nums))
