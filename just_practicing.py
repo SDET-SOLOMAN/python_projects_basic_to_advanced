@@ -1,2 +1,3 @@
-my_nums = [1, 2, 34, 5, 4, 3, 2, 1, 4, 5]
-print(**map(lambda x: isinstance(x, int),my_nums))
+my_list = [15, 20, 20, 17]
+sorted(my_list)
+print(my_list)
